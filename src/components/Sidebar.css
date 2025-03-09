@@ -1,0 +1,51 @@
+/* Estilo para a sidebar */
+.sidebar {
+    width: 200px; /* Largura fixa da sidebar */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f1f1f1; /* Cor de fundo clara */
+    height: calc(100vh - 60px); /* Altura quase total da tela, ajustada para header e footer */
+    overflow-y: auto; /* Barra de rolagem se o conteúdo ultrapassar a altura */
+  }
+  
+  /* Estilo para os títulos das seções */
+  .sidebar h2,
+  .sidebar h3 {
+    margin-top: 0; /* Remove margem superior dos títulos */
+    font-size: 1.2em; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento abaixo dos títulos */
+  }
+  
+  /* Estilo para as listas de filtros */
+  .sidebar ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+  }
+  
+  /* Estilo para os itens da lista */
+  .sidebar ul li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+  }
+  
+  /* Estilo para os links dentro da sidebar */
+  .sidebar a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #555; /* Cor do texto */
+    font-size: 0.95em; /* Tamanho do texto */
+    transition: color 0.3s ease; /* Transição suave para o hover */
+  }
+  
+  /* Efeito hover nos links */
+  .sidebar a:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+  }
+  
+  /* Estilo para a seção de filtros (opcional, para separação visual) */
+  .filter-section {
+    margin-bottom: 20px; /* Espaçamento entre seções de filtros */
+  }
+  
+  /* Estilo para o último item da lista (remove margem inferior) */
+  .sidebar ul li:last-child {
+    margin-bottom: 0;
+  }

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logotipo.png'; // Ajuste o caminho da imagem
+import './Header.css'; // Importe o CSS
+
 
 function Header() {
   return (
     <header className="header">
-      <h1>Loja de Roupas</h1>
+      <img src={logo} alt="Logotipo Colorê" className="logo" />
       <nav>
         <ul className="nav-list">
           <li><Link to="/">Home</Link></li>
